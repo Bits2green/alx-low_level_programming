@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main - prints if the number is positive, negative or 0
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -26,5 +24,4 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-
 }
