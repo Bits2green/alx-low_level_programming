@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - Entry
- *
+ * @c: first member
  * Return: 1 if c is letter, and 0 if c is not a letter
  */
 
