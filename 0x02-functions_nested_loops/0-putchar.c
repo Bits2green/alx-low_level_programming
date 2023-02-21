@@ -7,9 +7,9 @@
  */
 int main(void)
 {
-	int putchar;
+	char putchar;
 
-	putchar = _putchar();
+	putchar = _putchar("_putchar");
 	printf("%s", putchar);
 	return (0);
 }
