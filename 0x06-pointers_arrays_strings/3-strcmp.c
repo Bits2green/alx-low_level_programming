@@ -4,7 +4,7 @@
  * _strcmp - Entry
  * @s1: first member
  * @s2: second member
- * 
+ *
  * Return:an integer
  */
 int _strcmp(char *s1, char *s2)
