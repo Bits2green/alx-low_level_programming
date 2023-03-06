@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_diagsums - Entry
  * @a: pointer to start of matrix
@@ -17,7 +19,7 @@ void print_diagsums(int *a, int size)
 	}
 	for (d = 0; d < size; d++)
 	{
-		e = (d * size) + (size - 1 - j);
+		e = (d * size) + (size - 1 - d);
 		g += *(a + e);
 	}
 	printf("%i, %i\n", f, g);
