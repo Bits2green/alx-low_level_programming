@@ -4,7 +4,7 @@
  * _strlen_recursion - Entry
  * @s: first member
  *
- * Return 0
+ * Return: integer
  */
 
 int _strlen_recursion(char *s)
@@ -18,4 +18,4 @@ int _strlen_recursion(char *s)
 	}
 
 	return (i);
-}	
+}
