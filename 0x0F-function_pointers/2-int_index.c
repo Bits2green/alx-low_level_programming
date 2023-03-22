@@ -6,6 +6,7 @@
  * @size: size of array
  * @cmp: function toiterate over the array
  *
+ * Return: index of first element or -1
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
