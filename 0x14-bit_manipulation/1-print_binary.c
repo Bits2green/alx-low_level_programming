@@ -9,22 +9,23 @@
 void print_binary(unsigned long int n)
 {
 	int c;
-	counter = 0;
+	
+	tally = 0;
 
 	unsigned long int num;
 
-	for (c = 63; c >= 0; i--)
+	for (c = 63; c >= 0; c--)
 	{
 		num = n >> c;
 
 		if (num & 1)
 		{
 			_putchar('1');
-			num++;
+			tally++;
 		}
-		else if (num)
+		else if (tally)
 			_putchar('0');
 	}
-	if (!num)
+	if (!tally)
 		_putchar('0');
 }
