@@ -9,24 +9,13 @@
 
 void print_binary(unsigned long int n)
 {
-	int c;
-
-	tally = 0;
-
-	unsigned int num;
-
-	for (c = 63; c >= 0; c--)
+	if (n > 1)
 	{
-		num = n >> c;
-
-		if (num & 1)
-		{
-			_putchar('1');
-			tally++;
-		}
-		else if (tally)
-			_putchar('0');
+		/* rightshift and print the higher order bits */
+		print_binary(n >> 1);
 	}
-	if (!tally)
-		_putchar('0');
+
+	/* print the current bit */
+	putchar((n & 1) ? '1' : '0');
 }
+
