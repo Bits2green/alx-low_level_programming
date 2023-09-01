@@ -10,6 +10,7 @@
 
 int get_bit(unsigned long int n, unsigned int index)
 {
+	unsigned long int bitMask;
 
 	/* Check if the 'index' is within valid range for datatype */
 	if (index >= sizeof(unsigned long int) * 8)
@@ -18,7 +19,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	}
 
 	/* Create a mask with 1 at the desired index using << */
-	unsigned long int bitMask = 1UL << index;
+	bitMask = 1UL << index;
 
 	/*  if both corresponding bits in the operands are 1*/
 	if (n & bitMask)
