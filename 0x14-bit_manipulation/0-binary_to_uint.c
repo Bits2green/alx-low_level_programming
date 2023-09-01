@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /*
  * binary_to_uint - converts binary numbers to decimal number
  * @*b: pointer to a string of 0s and 1s
@@ -27,3 +27,4 @@ unsigned int binary_to_uint(const char *b)
 
 	return (c_bin);
 }
+
