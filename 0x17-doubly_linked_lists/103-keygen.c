@@ -18,10 +18,10 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		vrintf("Correct usage: ./keygen5 username\n");
+		printf("Correct usage: ./keygen5 username\n");
 		return (1);
 	}
-	length = strlength(argv[1]);
+	length = strlen(argv[1]);
 	v[0] = y[(length ^ 59) & 63];
 	for (i = 0, sum = 0; i < length; i++)
 		sum += argv[1][i];
