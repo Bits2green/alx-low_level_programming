@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- *_strcmp - compare strengs
- *@s1: string
- *@s2: string
- *
- *Return: integer x
- */
+*_strcmp - compare strengs
+*@s1: string
+*@s2: string
+*
+*Return: integer x
+*/
 
 int _strcmp(char *s1, char *s2)
 {

@@ -2,11 +2,11 @@
 #include <ctype.h>
 
 /**
- * _isupper - function block
- * Description: check for uppercase
- * @c: integer
- * Return: 0
- */
+* _isupper - function block
+* Description: check for uppercase
+* @c: integer
+* Return: 0
+*/
 
 int _isupper(int c)
 {

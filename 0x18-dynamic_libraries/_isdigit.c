@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *_isdigit - function to check for digit
- *@c: integer
- *Return: a
- */
+*_isdigit - function to check for digit
+*@c: integer
+*Return: a
+*/
 
 int _isdigit(int c)
 {

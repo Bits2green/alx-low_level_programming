@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- *_strcpy - copy string including the terminating null byte
- *@dest: destination of string
- *@src: source of string
- *
- *Return: the value dest
- */
+*_strcpy - copy string including the terminating null byte
+*@dest: destination of string
+*@src: source of string
+*
+*Return: the value dest
+*/
 
 char *_strcpy(char *dest, char *src)
 {

@@ -1,10 +1,10 @@
 #include "main.h"
 #include <ctype.h>
 /**
- *_islower - check for lowercase alphabet
- *@c: the character to print
- *Return: 0
- */
+*_islower - check for lowercase alphabet
+*@c: the character to print
+*Return: 0
+*/
 int _islower(int c)
 {
 if (c >= 97 && c <= 122)

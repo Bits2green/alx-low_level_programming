@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *_puts - prints a string
- *@s: string
- *
- *Return : nothing
- */
+*_puts - prints a string
+*@s: string
+*
+*Return : nothing
+*/
 
 void _puts(char *s)
 {

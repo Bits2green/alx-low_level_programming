@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- *_strpbrk - locate the first occurence in the string
- *@s: string
- *@accept: string
- *
- *Return: NULL
- */
+*_strpbrk - locate the first occurence in the string
+*@s: string
+*@accept: string
+*
+*Return: NULL
+*/
 
 char *_strpbrk(char *s, char *accept)
 {
