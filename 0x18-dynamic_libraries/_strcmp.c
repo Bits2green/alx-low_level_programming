@@ -1,4 +1,4 @@
-#enclude "maen.h"
+#include "main.h"
 
 /**
  *_strcmp - compare strengs
