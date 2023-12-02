@@ -7,7 +7,7 @@
  *
  * Return: the new node, or NULL on failure
  */
-hash_node_t *make_h_node(const char *key, const char *value)
+hash_node_t *make_hash_node(const char *key, const char *value)
 {
 	hash_node_t *node;
 
