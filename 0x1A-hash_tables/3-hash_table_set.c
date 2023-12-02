@@ -1,4 +1,4 @@
-#include "hash_t.h"
+#include "hash_tables.h"
 
 /**
  * make_hash_node - creates a new hash node
