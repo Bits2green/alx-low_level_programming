@@ -1,8 +1,4 @@
-	.file	"0-main.c"
-	.text
-	.section	.rodata
-.LC0:
-	.string	"Holberton School"
+	.file	"main.c"
 	.text
 	.globl	main
 	.type	main, @function
@@ -15,10 +11,6 @@ main:
 	.cfi_offset 6, -16
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
-	leaq	.LC0(%rip), %rax
-	movq	%rax, %rdi
-	movl	$0, %eax
-	call	printf@PLT
 	movl	$0, %eax
 	popq	%rbp
 	.cfi_def_cfa 7, 8
