@@ -1,16 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <unistd.h>
 
-/**
- * _putchar - prints '_putchar'
- * Return: Always Success (0)
- */
-
-char _putchar(void)
+int _putchar(char c)
 {
-        printf("_putchar\n");
-        return (0);
+	return (write(1, &c, 1));
 }
 
 #endif
