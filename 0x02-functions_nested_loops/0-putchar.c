@@ -1,17 +1,5 @@
 #include <stdio.h>
-
-
-/**
- * _putchar - prints '_putchar'
- * Return: Always Success (0)
- */
-
-char _putchar(void)
-{
-	printf("_putchar\n");
-	return (0);
-}
-
+#include "main.h"
 
 /**
  * main - Entry Point
