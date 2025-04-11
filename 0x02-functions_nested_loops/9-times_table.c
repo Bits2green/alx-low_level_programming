@@ -41,7 +41,6 @@ void times_table(void)
 			}
 			col++;
 		}
-		_putchar('$');
 		_putchar('\n');
 		row++;
 	}
